@@ -23,4 +23,5 @@ group by education_level;
 ```
 ## OUTPUT/RESULT:
 
-<img [image](https://github.com/user-attachments/assets/7eeccb42-557d-478f-9de7-fc2918512fef) />
+<img ![image](https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda)
+ />
