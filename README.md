@@ -158,7 +158,7 @@ WHERE income > (
 
 ## Conclusion
 This project strengthened my skills in using SQL to analyze structured employee data. Through a series of queries, I explored patterns in income, education, employment status, and housing.
-The analysis helped me apply concepts like aggregation, filtering, ranking, and window functions effectively. It also demonstrated how structured data can be transformed into actionable insights to support data-driven decisions.
+The analysis helped me apply concepts like aggregation, filtering, ranking, and window functions effectively.It showed how employee data can reveal insights that guide better decisions.
 
 
 
