@@ -33,7 +33,8 @@ order by income desc;
 ```
 
 ## OUTPUT/RESULT:
-<img src="https://github.com/user-attachments/assets/7c1258bc-102e-4d73-9d4d-d23304ac4153" width="400" height="200">
+![image](https://github.com/user-attachments/assets/1157b38c-be00-45ad-ba63-2680876b7e02)
+
 
 
 ### 3. Count how many people in each Occupation have more than 2 dependents and own a house.
@@ -58,7 +59,7 @@ order by income desc;
 ```
 ##OUTPUT/RESULT:
 <img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
-![image](https://github.com/user-attachments/assets/9e07fa2e-c6a6-4d22-87bf-14c5e5b910fb)
+
 
 ### 5. Identify how many males and females are in each Employment_Status.
 
