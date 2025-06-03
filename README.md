@@ -4,6 +4,11 @@ This project involved analyzing employee data using SQL to uncover insights into
 
 ## Project Structure
 
-- **Database Setup**: Creation of the `soulvibe_db` database and the required tables.
+- **Database Setup**: Creation of the `soulvibe` database and the required tables.
 - **Data Import**: Inserting sample data into the tables.
 - **Business Problems**: Solving 20 specific business problems using SQL queries.
+
+## Database Setup
+```sql
+CREATE DATABASE soulvibe;
+```
