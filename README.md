@@ -22,8 +22,8 @@ where employment_status='Full-time'
 group by education_level;
 ```
 ## OUTPUT/RESULT:
+<img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="300">
 
-![image](https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda)
 
 ### 2. Retrieve the top 5 highest earning individuals and their details.
 ``` sql
