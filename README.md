@@ -5,7 +5,7 @@ This project involved analyzing employee data using SQL to uncover insights into
 ## Project structure 
 - **Database Setup**: Creation of the `soulvibe` database.
 - **Importing data**: Importing sample csv file into tables.
-- **Business Problems**: Solving 12 specific problems using SQL queries.
+- **Problems**: Solving 12 specific problems using SQL queries.
 
 ## Database Setup
 ```sql
@@ -13,7 +13,7 @@ CREATE DATABASE soulvibe;
 ```
 ## Data Import
 - **Importing data**: Importing sample csv file into tables.
-- 
+  
 ## SQL Queries Solved
 ### 1.Find the average income for each Education_Level for those who are employed full-time.
 ```sql
