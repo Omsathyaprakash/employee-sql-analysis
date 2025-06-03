@@ -156,7 +156,9 @@ WHERE income > (
 ## OUTPUT/RESULT
 ![image](https://github.com/user-attachments/assets/d263376d-6778-44f0-931d-a631006a7da5)
 
-
+## Conclusion
+This project strengthened my skills in using SQL to analyze structured employee data. Through a series of queries, I explored patterns in income, education, employment status, and housing.
+The analysis helped me apply concepts like aggregation, filtering, ranking, and window functions effectively. It also demonstrated how structured data can be transformed into actionable insights to support data-driven decisions.
 
 
 
