@@ -95,7 +95,8 @@ from employees
 group by type_of_housing;
 ```
 ## OUTPUT/RESULT:
-<img src="![image](https://github.com/user-attachments/assets/f369171a-849d-48fb-9a98-4bbe733b3338)
+![image](https://github.com/user-attachments/assets/92e0ce0d-b592-495d-8d45-5b2bdd3345d2)
+
 
 ### 8. Calculate the minimum, maximum, and average Work_Experience for each Marital_Status.
 
@@ -108,9 +109,54 @@ from employees
 group by marital_status;
 ```
 ## OUTPUT/RESULT:
-<img src="![image](https://github.com/user-attachments/assets/9738bfbd-a122-4cc3-a395-2ed77e61526b)
-)
-" width="400" height="200">
+![image](https://github.com/user-attachments/assets/768f3f15-691a-40ec-ac3b-f4d5b760eaed)
+
+### 9. Write a query to rank individuals by Income within each Education_Level.
+
+```SQL
+select *,rank() over(partition by education_level
+						order by income desc) as ranks
+from employees;
+```
+## OUTPUT/RESULT
+![image](https://github.com/user-attachments/assets/bc070ca0-f078-4b76-a41f-25c16bbf6f1b)
+
+### 10. Find the top 3 Occupation types with the highest average income.
+
+```sql
+select top 3 occupation,avg(income) as avgincome
+from employees
+group by occupation
+order by avg(income) desc;
+```
+## OUTPUT/RESULT
+![image](https://github.com/user-attachments/assets/15ab9f71-925b-4ecc-883e-1ff04abafb39)
+
+### 11. Use a window function to calculate the cumulative income for each Gender.
+```sql
+select gender,income,
+	sum(income) over(partition by gender
+					order by income) as cumulative_income
+from employees;
+```
+## OUTPUT/RESULT
+![image](https://github.com/user-attachments/assets/ff5d3326-d53e-4eff-b848-3a559b61ff9e)
+### 12. List the people whose income is above the median income for the dataset.
+
+```sql
+SELECT * 
+FROM employees 
+WHERE income > (
+    SELECT  distinct PERCENTILE_CONT(0.5) 
+    WITHIN GROUP (ORDER BY income) 
+    OVER () AS MedianIncome
+    FROM employees
+);
+```
+## OUTPUT/RESULT
+![image](https://github.com/user-attachments/assets/d263376d-6778-44f0-931d-a631006a7da5)
+
+
 
 
 
