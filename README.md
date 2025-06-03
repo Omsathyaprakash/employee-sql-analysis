@@ -84,7 +84,34 @@ group by location,occupation
 order by 1,2
 ```
 ## OUTPUT/RESULT:
-<img src="https://github.com/user-attachments/assets/6579d2c9-0472-45b8-859b-faaa015acf2a" width="400" height="200">
+![image](https://github.com/user-attachments/assets/398634a7-ff91-4f35-8815-347651f2d756)
+
+### 7. Find the average Household_Size grouped by Type_of_Housing.
+
+```SQL
+select type_of_housing,
+	avg(household_size) as avg_householdsize
+from employees
+group by type_of_housing;
+```
+## OUTPUT/RESULT:
+<img src="![image](https://github.com/user-attachments/assets/f369171a-849d-48fb-9a98-4bbe733b3338)
+
+### 8. Calculate the minimum, maximum, and average Work_Experience for each Marital_Status.
+
+```SQL
+select marital_status,
+	min(work_experience) as minworkexperience,
+	max(work_experience) as maxworkexperience,
+	avg(work_experience) as avgworkexperience
+from employees
+group by marital_status;
+```
+## OUTPUT/RESULT:
+<img src="![image](https://github.com/user-attachments/assets/9738bfbd-a122-4cc3-a395-2ed77e61526b)
+)
+" width="400" height="200">
+
 
 
 
