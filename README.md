@@ -2,19 +2,16 @@
 ## Overview
 This project involved analyzing employee data using SQL to uncover insights into income distribution, education levels, employment status, housing trends, and occupational patterns. Key techniques included aggregation, filtering, ranking, and window functions to support data-driven decision-making.
 
-## Project Structure
-
-- **Database Setup**: Creation of the `soulvibe` database and the required tables.
-- **Data Import**: Inserting sample data into the tables.
-- **Business Problems**: Solving 20 specific business problems using SQL queries.
+Project structure
+Database Setup: Creation of the soulvibe database.
+Importing data: Importing sample csv file into tables.
+Business Problems: Solving 12 specific business problems using SQL queries.
 
 ## Database Setup
 ```sql
 CREATE DATABASE soulvibe;
 ```
-
 ## Data Import
-creating a table with name employees and importing the table from the csv files 
 
 ## SQL Queries Solved
 ### 1.Find the average income for each Education_Level for those who are employed full-time.
@@ -24,4 +21,6 @@ from employees
 where employment_status='Full-time'
 group by education_level;
 ```
+## OUTPUT/RESULT:
 
+<img ![image](https://github.com/user-attachments/assets/7eeccb42-557d-478f-9de7-fc2918512fef) />
