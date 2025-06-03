@@ -33,7 +33,8 @@ order by income desc;
 ```
 
 ## OUTPUT/RESULT:
-![image](https://github.com/user-attachments/assets/7c1258bc-102e-4d73-9d4d-d23304ac4153)
+<img src="https://github.com/user-attachments/assets/7c1258bc-102e-4d73-9d4d-d23304ac4153" width="400" height="200">
+
 
 ### 3. Count how many people in each Occupation have more than 2 dependents and own a house.
 ``` sql
@@ -43,7 +44,8 @@ where number_of_dependents>2 and homeownership_status='Own'
 group by occupation;
 ```
 ##OUTPUT/RESULT:
-![image](https://github.com/user-attachments/assets/65670090-7a5e-43ca-b455-7a9f3633e5d2)
+<img src="https://github.com/user-attachments/assets/65670090-7a5e-43ca-b455-7a9f3633e5d2" width="400" height="200">
+
 
 ### 4. List all individuals living in Urban locations with an income above the average income.
 
@@ -55,6 +57,7 @@ where location='Urban'
 order by income desc;
 ```
 ##OUTPUT/RESULT:
+<img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
 ![image](https://github.com/user-attachments/assets/9e07fa2e-c6a6-4d22-87bf-14c5e5b910fb)
 
 ### 5. Identify how many males and females are in each Employment_Status.
@@ -66,6 +69,7 @@ group by employment_status,gender
 order by employment_status;
 ```
 ##OUTPUT/RESULT:
+<img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
 ![image](https://github.com/user-attachments/assets/83edc868-8231-41e8-9f04-a39d02b1364a)
 
 ### 6. What is the total and average income by Location and Occupation?
@@ -79,6 +83,7 @@ group by location,occupation
 order by 1,2
 ```
 ##OUTPUT/RESULT:
+<img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
 ![image](https://github.com/user-attachments/assets/6579d2c9-0472-45b8-859b-faaa015acf2a)
 
 
