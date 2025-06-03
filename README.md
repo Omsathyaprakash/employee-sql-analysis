@@ -44,7 +44,7 @@ from employees
 where number_of_dependents>2 and homeownership_status='Own'
 group by occupation;
 ```
-##OUTPUT/RESULT:
+## OUTPUT/RESULT:
 <img src="https://github.com/user-attachments/assets/65670090-7a5e-43ca-b455-7a9f3633e5d2" width="400" height="200">
 
 
@@ -57,7 +57,7 @@ where location='Urban'
 	and income>(select avg(income) from employees)
 order by income desc;
 ```
-##OUTPUT/RESULT:
+## OUTPUT/RESULT:
 <img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
 
 
@@ -69,9 +69,9 @@ from employees
 group by employment_status,gender
 order by employment_status;
 ```
-##OUTPUT/RESULT:
-<img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
-![image](https://github.com/user-attachments/assets/83edc868-8231-41e8-9f04-a39d02b1364a)
+## OUTPUT/RESULT:
+<img src="https://github.com/user-attachments/assets/83edc868-8231-41e8-9f04-a39d02b1364a" width="400" height="200">
+
 
 ### 6. What is the total and average income by Location and Occupation?
 
@@ -83,9 +83,9 @@ from employees
 group by location,occupation
 order by 1,2
 ```
-##OUTPUT/RESULT:
-<img src="https://github.com/user-attachments/assets/14b87eae-6d80-4e7e-a137-2b31be0b9bda" width="400" height="200">
-![image](https://github.com/user-attachments/assets/6579d2c9-0472-45b8-859b-faaa015acf2a)
+## OUTPUT/RESULT:
+<img src="https://github.com/user-attachments/assets/6579d2c9-0472-45b8-859b-faaa015acf2a" width="400" height="200">
+
 
 
 
