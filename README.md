@@ -12,7 +12,8 @@ This project involved analyzing employee data using SQL to uncover insights into
 CREATE DATABASE soulvibe;
 ```
 ## Data Import
-
+- **Importing data**: Importing sample csv file into tables.
+- 
 ## SQL Queries Solved
 ### 1.Find the average income for each Education_Level for those who are employed full-time.
 ```sql
