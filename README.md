@@ -1,2 +1,3 @@
 # employee-sql-analysis
-SQL-based analysis of employee data completed during my internship at Soulvibe.Tech. Explored demographics, income, education, and employment trends using structured queries. Gained hands-on experience in deriving insights to support business and HR decisions.
+## Overview
+This project involved analyzing employee data using SQL to uncover insights into income distribution, education levels, employment status, housing trends, and occupational patterns. Key techniques included aggregation, filtering, ranking, and window functions to support data-driven decision-making.
